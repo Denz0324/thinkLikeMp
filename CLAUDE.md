@@ -1,5 +1,6 @@
 Skills are organized into bucket folders under `skills/`:
 
+- `meta/` — skills that orchestrate other skills; understand the full skill library
 - `engineering/` — daily code work
 - `productivity/` — daily non-code workflow tools
 - `misc/` — kept around but rarely used
@@ -7,7 +8,7 @@ Skills are organized into bucket folders under `skills/`:
 - `in-progress/` — drafts not yet ready to ship
 - `deprecated/` — no longer used
 
-Every skill in `engineering/`, `productivity/`, or `misc/` must have a reference in the top-level `README.md` and an entry in `.claude-plugin/plugin.json`. Skills in `personal/`, `in-progress/`, and `deprecated/` must not appear in either.
+Every skill in `meta/`, `engineering/`, `productivity/`, or `misc/` must have a reference in the top-level `README.md` and an entry in `.claude-plugin/plugin.json`. Skills in `personal/`, `in-progress/`, and `deprecated/` must not appear in either.
 
 Each skill entry in the top-level `README.md` must link the skill name to its `SKILL.md`.
 

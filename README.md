@@ -142,6 +142,12 @@ Software engineering fundamentals matter more than ever. These skills are my bes
 
 ## Reference
 
+### Meta
+
+Skills that orchestrate other skills.
+
+- **[thinkLikeMp](./skills/meta/thinkLikeMp/SKILL.md)** — Routes to the right skills automatically based on your instruction. Logs every routing decision live to a terminal-visible session file.
+
 ### Engineering
 
 Skills I use daily for code work.
